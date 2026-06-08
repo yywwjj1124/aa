@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode build products
+DerivedData/
+.derivedData/
+.derivedData-device/
+build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift compiler caches
+.build/
+.swiftpm/
+.swift-module-cache/
+Package.resolved
+
+# Local secrets
+demo3/AgentSecrets.plist
+*.xcconfig.local
+.env
+.env.*
+
+# Generated artifacts
+outputs/
+*.log
+
+# Temporary files
+*.swp
+*.tmp
+*~
